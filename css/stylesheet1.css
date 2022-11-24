@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4 {
+  color: red;
+}
+p {
+  color: blue;
+}
+ol
+{
+    list-style-type: symbols('#');
+}
+ul
+{
+    list-style-image: url("../images/pointer.gif");
+}
+table, td,th
+{
+  border: 1px solid black;
+  border-spacing: 0px;
+}
+table
+{
+  width: 500px;
+  height: 200px;
+}
+td
+{
+  text-align: center;
+  background-color: rgb(203, 249, 203);
+  color: gray;
+  font-weight: bolder;
+}
+th
+{
+  background-color: orange;
+}

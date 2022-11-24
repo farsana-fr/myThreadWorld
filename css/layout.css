@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+}
+div {
+  width: 30%;
+  color: red;
+  clear: right;
+  margin: 1%;
+}
+h1,
+p {
+  margin: 0px;
+}
+img {
+  float: right;
+}
+#main {
+  width: 100%;
+  background-color: blue;
+  margin: 0px;
+  float: left;
+}
+#div1 {
+  background-color: aqua;
+  float: left;
+}
+#div2 {
+  background-color: lightgreen;
+  float: left;
+}
+#div3 {
+  background-color: lightcoral;
+  float: left;
+}
+#spec {
+    width:100%;
+    background-color: white;
+  color: green;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top:0px;
+}

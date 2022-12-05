@@ -3,6 +3,8 @@
 }
 body {
   margin: 0% 10%;
+  background-image: url("../images/back1.jpg");
+  background-size: cover;
 }
 #title {
   margin-bottom: 0px;
@@ -13,7 +15,11 @@ body {
   font-size: 5em;
   font-style: italic;
 }
-h1,
+h1{
+
+  opacity: 0.6;
+  background-color: white;
+}
 h2 {
   color: black;
   text-align: center;
@@ -24,33 +30,36 @@ h2 {
 h3 {
   background-color: aquamarine;
 }
-header {
-  background-color: LightCoral;
-  margin: 0px;
+article
+{
+  background-color: white;
+  padding: 20px;
 }
-footer {
-  background-color: LightGray;
-  clear: both;
-}
-footer h4 {
-  text-align: right;
-}
+
 blockquote {
   background-color: beige;
   font-style: italic;
   padding: 20px;
   float: right;
   width: 200px;
+  margin: 0px;
 }
-nav {
+dl
+{
+  margin: 0px;
+  padding: 20px;
+}
+.headNav nav {
   background-color: black;
-  text-align: center;
+text-align: center;
+  margin: 0px;
 }
-nav ul {
+ nav ul {
   list-style-type: none;
   padding: 10px 50px;
+  margin: 0px;
 }
-nav li {
+.headNav nav li {
   display: inline;
   width: 200px;
 }
@@ -63,7 +72,7 @@ a:visited {
   padding-top: 1%;
   padding-bottom: 1%;
 }
-nav a:hover {
+.headNav nav a:hover {
   background-color: lightcyan;
   color: black;
 }
@@ -110,15 +119,35 @@ video{
   float:right;
   margin-left: 50px;
 }
+footer {
+  background-color: LightGray;
+  padding: 20px;
+  height: 200px;
+}
+.insta,.footnav, .developer
+{
+  width: 45%;
+  margin-left: 3%;
+  float: left;
+}
+.footnav a:hover{
+  color: black;
+}
+
+/* footer h4 {
+  text-align: right;
+}
+footer nav
+{
+  width: 5%;
+  margin: 0 0 0 30%;
+}
 footer nav ul{
   background-color: LightGray;
-  padding: 0px;
-}
-footer nav li{
-  display: block;
-  text-align: left;
+  text-align: center;
+  
 }
 footer nav a:hover
-{
-  background-color: lightgray;
+{   background-color: lightgray;
 }
+*/

@@ -1,0 +1,71 @@
+table
+{
+    margin-left:100px;
+    height: 500px;
+    width:900px;
+}
+td,th
+{
+    text-align: left;
+    color:gray
+}
+td{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Wire One', sans-serif;
+    font-weight: bolder;
+    font-size:20px
+}
+th{
+    font-weight: lighter;
+    font-size: 20px;
+}
+a
+{
+    color:rgb(0, 183, 255);
+    text-decoration: none;
+}
+button
+{
+    width:100px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    font-weight: 700;
+}
+.activate
+{
+    background-color: rgba(0, 238, 255, 0.197);
+    color:rgb(0, 238, 255);
+}
+.activate:hover
+{
+    color: white;
+    background-color:rgb(0, 238, 255);;
+}
+.cancel
+{
+    background-color: white;
+    color:rgb(104, 102, 102)
+}
+.approve
+{
+    background-color: rgba(71, 71, 71, 0.411);
+    color:rgb(47, 255, 71);
+}
+.approve:hover
+{
+    background-color: rgb(22, 204, 25);
+    color:white;
+}
+.cancel:hover
+{
+    background-color: black;
+    color:white;
+}
+nav
+{
+    width:1000px;
+}
+nav a{
+    padding: 10px 20px;
+}
